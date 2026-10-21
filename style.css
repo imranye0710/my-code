@@ -1,11 +1,24 @@
 div {
-    height: 100px;
-    width: 100px;
+    height: 500px;
+    width: 500px;
     background-color: pink;
-    border: 2px solid yellow;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-delay: 1s; */
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s;
 }
 
 div:hover {
+    height: 800px;
+    width: 800px;
     background-color: red;
-    border: 5px dashed purple;
+    border: 5px dashed;
+    border-radius: 30px;
+    font-size: 50px;
+}
+
+div:active {
+    background-color: chocolate;
 }
