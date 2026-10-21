@@ -18,7 +18,7 @@ div:hover {
     border: 5px dashed;
     border-radius: 30px;
     font-size: 20px;
-    transform: rotateZ(360deg) scale(1, 2);
+    transform: rotateZ(360deg) scale(2, 2);
 }
 
 div:active {
