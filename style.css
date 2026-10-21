@@ -1,4 +1,7 @@
 div {
+    position: absolute;
+    top: 200px;
+    left: 200px;
     height: 400px;
     width: 400px;
     background-color: pink;
@@ -15,8 +18,7 @@ div:hover {
     border: 5px dashed;
     border-radius: 30px;
     font-size: 50px;
-    transform: rotateZ(360deg);
-    transform: scale(1.5);
+    transform: rotateZ(360deg) scale(1.5);
 }
 
 div:active {
