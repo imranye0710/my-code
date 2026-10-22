@@ -20,7 +20,7 @@ div:hover {
     font-size: 20px;
     /* transform: rotateZ(360deg) scale(2, 2);
     transform: translate(100px,); */
-    transform: skew(30deg);
+    transform: skew(30deg) scale(0.5);
 }
 
 div:active {
