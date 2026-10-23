@@ -2,19 +2,26 @@ div {
     position: absolute;
     top: 200px;
     left: 200px;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     background-color: pink;
     border: 2px solid black;
     border-radius: 10px;
-    animation: coloranimate 2s ease-in 5;
+    animation: coloranimate 2s ease-in 0s 5 normal;
 }
 
 @keyframes coloranimate {
-    from {position: relative; left: 0px;}
-    to {position: relative; right : 100px;}
+    from {
+        position: relative; left: 0px;
+        background-color: black;
+    }
+
+    to {
+        position: relative; right: 100px;
+        background-color: white;
+    }
 }
 
 div:active {
-    background-color: chocolate;
+    background-color: plum;
 }
