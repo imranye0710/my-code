@@ -6,17 +6,13 @@ div {
     width: 400px;
     background-color: pink;
     border: 2px solid black;
-    border-radius: 20px;
-    /* transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition-delay: 1s; */
-    /* transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
-    transition: all 0.2s;
+    border-radius: 10px;
+    animation: coloranimate 2s ease-in 5;
 }
 
-div:hover {
-    transform: scale(1.02) translate(100px, 100px);
+@keyframes coloranimate {
+    from {position: relative; left: 0px;}
+    to {position: relative; right : 100px;}
 }
 
 div:active {
